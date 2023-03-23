@@ -29,7 +29,7 @@ function query(text, params, callback) {
 }
 
 app.get('/', (req, res) => {
-  // res.json("hello this is the server")
+  //res.json("hello this is the server")
   const q = 'SELECT * FROM color';
   query(q, (err, data) => {
     if (err) return res.json(err);

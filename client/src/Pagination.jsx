@@ -13,7 +13,7 @@ function Pagination({ colorsPerPage, totalColors, paginate }) {
       <div className="pagination">
         {pageNumbers.map((number) => (
           <div key={number} className="page-item">
-            <a onClick={() => paginate(number)} href="!#" className="page-link">
+            <a onClick={() => paginate(number)} href="#!" className="page-link">
               {number}
 
             </a>
