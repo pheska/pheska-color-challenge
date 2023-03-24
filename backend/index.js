@@ -40,3 +40,5 @@ app.get('/', (req, res) => {
 app.listen(3333, () => {
   console.log('Connected to server!');
 });
+
+module.exports = app
