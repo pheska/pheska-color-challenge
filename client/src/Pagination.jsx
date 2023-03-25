@@ -3,6 +3,8 @@ import React from 'react';
 
 function Pagination({ colorsPerPage, totalColors, paginate }) {
   const pageNumbers = [];
+  console.log(totalColors);
+  console.log('pagenumber', pageNumbers);
 
   for (let i = 1; i < Math.ceil(totalColors / colorsPerPage); i += 1) {
     pageNumbers.push(i);
